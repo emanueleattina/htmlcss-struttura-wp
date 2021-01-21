@@ -1,0 +1,107 @@
+/* regola base per i margini e bordi */
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------- */
+
+/* regola per il float */
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* -------------------- */
+
+/* classi che regolano le dimensioni delle sezioni */
+
+.container
+{
+  width: 80%;
+  margin: auto;
+}
+
+.nav
+{
+  height: 150px;
+}
+
+.header
+{
+  height: 400px;
+}
+
+.main
+{
+  height: 70px;
+}
+
+.main-col
+{
+  height: 400px;
+}
+
+.footer
+{
+  height: 100px;
+}
+
+/* -------------------- */
+
+/* classi che regolano le dimensioni delle colonne */
+
+.col-100
+{
+  width: 100%;
+  float: left;
+}
+
+.col-50
+{
+  width: 50%;
+  float: left;
+}
+
+.col-25
+{
+  width: 25%;
+  float: left;
+}
+
+/* -------------------- */
+
+/* classi di stile background */
+
+.bg-rosa
+{
+  background: #E579E6;
+}
+
+.bg-giallo
+{
+  background: #E1D77A;
+}
+
+.bg-azzurro
+{
+  background: #ABCFE6
+}
+
+.bg-blu
+{
+  background: #0086FF;
+}
+
+.bg-viola
+{
+  background: #8800FF;
+}
+
+/* -------------------- */
