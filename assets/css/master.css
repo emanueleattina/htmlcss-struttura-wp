@@ -43,9 +43,26 @@
   height: 70px;
 }
 
-.main-col
+.col-sx
 {
   height: 400px;
+  float: left;
+  width: 20%;
+}
+
+.col-center
+{
+  height: 400px;
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+}
+
+.col-dx
+{
+  height: 400px;
+  float: right;
+  width: 20%
 }
 
 .footer
@@ -63,7 +80,7 @@
   float: left;
 }
 
-.col-50
+/* .col-50
 {
   width: 50%;
   float: left;
@@ -73,19 +90,7 @@
 {
   width: 25%;
   float: left;
-}
-
-.col-20
-{
-  width: 20%;
-  float: left;
-}
-
-.col-45
-{
-  width: 45%;
-  float: left;
-}
+} */
 
 /* -------------------- */
 
