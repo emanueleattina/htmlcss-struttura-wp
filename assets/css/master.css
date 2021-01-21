@@ -75,6 +75,47 @@
   float: left;
 }
 
+.col-20
+{
+  width: 20%;
+  float: left;
+}
+
+.col-45
+{
+  width: 45%;
+  float: left;
+}
+
+/* -------------------- */
+
+/* classi che regolano i margini delle colonne e righe */
+
+.mt-15
+{
+  margin-top: 15px;
+}
+
+.mb-15
+{
+  margin-bottom: 15px;
+}
+
+.mr-15
+{
+  margin-right: 5%;
+}
+
+.ml-15
+{
+  margin-left: 5%;
+}
+
+.pb-15
+{
+  padding-bottom: 15px;
+}
+
 /* -------------------- */
 
 /* classi di stile background */
